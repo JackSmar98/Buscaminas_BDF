@@ -1,0 +1,39 @@
+.game-controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.difficulty-controls,
+.game-actions {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 600px) {
+  .game-controls {
+    flex-direction: column;
+  }
+
+  .difficulty-controls,
+  .game-actions {
+    justify-content: center;
+  }
+}
+
+.game-controls button {
+  padding: 8px 12px;
+  background-color: #4a6ea9;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.game-controls button:hover {
+  background-color: #304d7f;
+}

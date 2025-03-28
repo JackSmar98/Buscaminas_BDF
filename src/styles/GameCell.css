@@ -1,0 +1,54 @@
+.game-cell {
+  background-color: #ccc;
+  aspect-ratio: 1/1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  user-select: none;
+  transition: background-color 0.2s;
+}
+
+.game-cell:hover {
+  background-color: #ddd;
+}
+
+.game-cell.revealed {
+  background-color: #eee;
+}
+
+.game-cell.mine {
+  background-color: #f44336;
+}
+
+/* Colores para números */
+.adjacent-1 {
+  color: blue;
+}
+.adjacent-2 {
+  color: green;
+}
+.adjacent-3 {
+  color: red;
+}
+.adjacent-4 {
+  color: darkblue;
+}
+.adjacent-5 {
+  color: darkred;
+}
+.adjacent-6 {
+  color: teal;
+}
+.adjacent-7 {
+  color: black;
+}
+.adjacent-8 {
+  color: gray;
+}
+
+.game-cell.flagged {
+  background-color: #ffffcc;
+}

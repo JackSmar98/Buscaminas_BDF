@@ -1,0 +1,27 @@
+.game-message {
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.game-message h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.game-message p {
+  margin: 5px 0;
+}
+
+.game-message.success {
+  background-color: #d4edda;
+  border: 1px solid #c3e6cb;
+  color: #155724;
+}
+
+.game-message.error {
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  color: #721c24;
+}

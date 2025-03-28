@@ -1,0 +1,92 @@
+.score-board {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.score-board h2 {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.score-filters {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.filter-btn {
+  padding: 8px 16px;
+  background-color: #f1f1f1;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.filter-btn:hover {
+  background-color: #e0e0e0;
+}
+
+.filter-btn.active {
+  background-color: #4a6ea9;
+  color: white;
+  border-color: #4a6ea9;
+}
+
+.scores-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.scores-table th,
+.scores-table td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.scores-table th {
+  background-color: #f5f5f5;
+  font-weight: bold;
+}
+
+.scores-table .victory-row {
+  background-color: rgba(46, 204, 113, 0.1);
+}
+
+.scores-table .defeat-row {
+  background-color: rgba(231, 76, 60, 0.1);
+}
+
+.loading-message,
+.error-message,
+.no-scores-message {
+  text-align: center;
+  padding: 20px;
+}
+
+.error-message {
+  color: #e74c3c;
+}
+
+.close-btn {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #4a6ea9;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.close-btn:hover {
+  background-color: #304d7f;
+}
